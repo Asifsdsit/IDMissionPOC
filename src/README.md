@@ -19,3 +19,9 @@ Then POST to `https://localhost:5001/api/kyc` with JSON body:
   "imageBase64": "<base64-encoded-image>"
 }
 ```
+
+Unit tests for this project are located in `tests/IDMissionDemo.Tests`. Run them with:
+
+```bash
+dotnet test tests/IDMissionDemo.Tests
+```
